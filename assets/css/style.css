@@ -55,3 +55,18 @@ button{
 #M{
     height: 100%;
 }
+#trending{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 30vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: space-evenly;
+}
+#trending div{
+    flex-basis: 23vw;
+}
+.up{
+    width: 100vw;
+}
