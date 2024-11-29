@@ -9,8 +9,9 @@ h1{
     font-family: "Spectral", serif;
     font-size: 5vw;
 }
-span{
+.spanB{
     font-weight: bold;
+    font-size: large;
 }
 header{
     display: flex;
@@ -55,6 +56,9 @@ button{
 #M{
     height: 100%;
 }
+
+/*trending*/
+
 #trending{
     display: flex;
     flex-wrap: wrap;
@@ -63,10 +67,78 @@ button{
     margin: 0 auto;
     justify-content: center;
     align-content: space-evenly;
+    align-items: center;
 }
 #trending div{
     flex-basis: 23vw;
 }
+#trending div p{
+    margin-bottom: 1em;
+}
+#trending div img{
+    border-radius: 100px;
+    display: inline;
+}
+.nick{
+    display: inline-block;
+    font-weight: bold;
+}
 .up{
     width: 100vw;
+}
+.float{
+    float: left;
+    clear: both;
+    height: 8vh;
+    font-size: 2em;
+    font-weight: bolder;
+    opacity: 0.1;
+}
+
+/*questions*/
+
+#insieme{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+#questions{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 110vh;
+    justify-content: space-around;
+    margin-right: 2em;
+}
+#questions div{
+    position: relative;
+    flex-basis: 10vw;
+}
+.spanSfondo{
+    background-color: gainsboro;
+    border-radius: 50px;
+    padding: 0 5px 0 5px;
+}
+#questions div img{
+    border-radius: 100px;
+    display: inline;
+}
+#questions div p{
+    max-width: vw;
+}
+.ma{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#immag{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    align-content: space-around;
+}
+#immag img{
+    height: 15vh;
 }
