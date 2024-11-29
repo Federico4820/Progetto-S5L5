@@ -113,7 +113,7 @@ button{
     display: flex;
     flex-direction: column;
     width: 25vw;
-    height: 110vh;
+    height: 200vh;
     justify-content: space-around;
     margin-right: 2em;
 }
@@ -153,12 +153,25 @@ button{
     display: flex;
     flex-wrap: wrap;
     width: 35vw;
+    align-content: start;  
 }
 #discover1{
     width: 32vw;
     border-bottom: 1px solid black;
     height: 16vh;
+    position: sticky;
+    top: 10vh;
 }
 #discover1 button{
     margin: 0.3vw;
+}
+#discover2{
+    margin-top: 2vw;
+    position: sticky;
+    top: 28.5vh;
+}
+#discover2 a{
+    padding: 2vw;
+    text-decoration: none;
+    color: unset;
 }
