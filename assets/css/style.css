@@ -30,6 +30,12 @@ header ul li{
     margin-left: 1em;
 }
 button{
+    background-color: white;
+    border: solid 1px rgb(192, 192, 192);
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 3px;
+}
+.btnBlack{
     border-radius: 20px;
     border: 0;
     background-color: black;
@@ -141,4 +147,18 @@ button{
 }
 #immag img{
     height: 15vh;
+}
+
+#discover{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35vw;
+}
+#discover1{
+    width: 32vw;
+    border-bottom: 1px solid black;
+    height: 16vh;
+}
+#discover1 button{
+    margin: 0.3vw;
 }
