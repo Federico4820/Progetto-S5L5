@@ -1,0 +1,57 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+}
+h1{
+    font-family: "Spectral", serif;
+    font-size: 5vw;
+}
+span{
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: flex-end;
+    background-color: #ffc017;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid black;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+button{
+    border-radius: 20px;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 0.8vw;
+    
+    width: 10em;
+}
+#hero{
+    height: 30vh;
+    background-color: #ffc017;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.stayCurious :nth-child(1n){
+    margin-bottom: 15px;
+}
+.stayCurious :nth-child(2){
+    width: 20vw;
+}
+#M{
+    height: 100%;
+}
